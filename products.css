@@ -1,0 +1,63 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 20px;
+    padding-bottom: 10;
+    background-color: #cfbcbc; /* Light gray background */
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    padding-top: 0%   ;
+    color: #000000; /* Dark gray heading */
+  }
+  li{
+    text-align: righ;
+    margin-bottom: 30px;
+    padding-bottom: 0%   ;
+    
+  }
+  
+  .product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .product-grid article {
+    width: calc(25% - 40px); /* Account for margin */
+    margin: 10px;
+    text-align: center;
+    background-color: #ffffff; /* White background for product items */
+    border: 1px solid #9f00f5; /* Light gray border */
+    border-radius: 5px; /* Rounded corners for product items */
+  }
+  
+  .product-image {
+    padding-left: 80px;
+    border-radius: 50px; /* Adjust for desired curve intensity */
+    width: 40%;  /* Maintains full width */
+    overflow: hidden; /* Ensures image doesn't overflow rounded corners */
+  }
+  
+  p {
+    margin-top: 10px;
+    
+    color: #000000; /* Light gray description text */
+  }
+  
+  ..header {
+    display: flex;  /* Make the header a flex container */
+    justify-content: center;
+     /* Center elements horizontally */
+    align-items: center; /* Optional: Center elements vertically */
+  }
+  
+  .logo {
+    padding-left: 610px;
+    width: 90px;  /* Adjust width as needed */
+    height: auto;   /* Maintain aspect ratio */
+    margin-right: 10;  /* Remove margin for spacing */
+  }
+  
